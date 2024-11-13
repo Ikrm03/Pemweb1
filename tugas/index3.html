@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Table form</title>
+  </head>
+  
+  <body>
+    <form name="formulir">
+      <table>
+        <thead>
+          <tr bgcolor="grey">
+            <th colspan="2">
+              Formulir Online
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td width="30%">
+              <label for="nama">Nama :</label>
+            </td>
+            <td>
+              <input type="text" nama="nama">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Password :</label>
+            </td>
+            <td>
+              <input type="password" name="password">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Jenis Kelamin :</label>
+            </td>
+            <td>
+              <input type="radio" name="gender" value="Laki-Laki" checked>Laki-Laki&nbsp;
+              <input type="radio" name="gender" value="Perempuan">Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="hobby">Hobby :</label>
+            </td>
+            <td>
+              <input type="checkbox" name="hobby" value="Sepak bola">Sepak bola <br/>
+              <input type="checkbox" name="hobby" value="Futsal">Futsal <br/>
+              <input type="checkbox" name="hobby" value="Menulis">Menulis <br/>
+              <input type="checkbox" name="hobby" value="Badminton">Badminton <br/>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="school">Pendidikan :</label></td>
+            <td>
+              <select name="school">
+                <option value="">Pilihan Pendidikan</option>
+                <option value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA">SMA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="address">Alamat :</label></td>
+            <td>
+              <textarea name="address"></textarea>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr bgcolor="grey">
+            <th colspan="2">
+              <input type="submit" name="save" value="Save">&nbsp;
+              <input type="reset" name="cancel" value="Cancel">
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>
